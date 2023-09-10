@@ -1,0 +1,47 @@
+.body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  width: 1024px;
+  height: 1366px;
+  margin: 0 auto;
+
+}
+
+h1{
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+}
+
+img {
+border-style: dashed;
+background-color: red;
+  border-color: black;
+  max-width: 30%;
+  max-height: auto;
+  border-radius: 20px;
+}
+
+p {
+  display: flex;
+
+  font-size: 30px;
+}
+
+.bio {
+  background-color: rgb(142, 142, 209);
+  border-radius: 20px;
+  padding: 20px;
+  
+}
+ .info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
